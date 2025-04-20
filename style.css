@@ -1,0 +1,34 @@
+body,html{
+   width:100%;
+    background-image: url("./Untitled\ design.png");
+    display: flex;
+   height: 100%;;
+    align-items: center;
+    justify-content: center;
+}
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    background-color:#F3ECB0;
+  width:60%;
+  height:50%;
+  padding:2rem;
+  border:#344D67 solid 5px;
+  border-radius: 10px;
+    }
+    #floatingInput{
+      margin-bottom:5px;
+    }
+    form{
+      width:65%
+    }
+    #floatingInput,#floatingPasword{
+      width:100%;
+    }
+    @media (max-width:450px)
+    {
+   main{
+    width:80%;
+   }
+    }
